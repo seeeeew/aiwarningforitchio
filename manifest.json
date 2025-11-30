@@ -1,0 +1,29 @@
+{
+	"manifest_version": 3,
+	"name": "AI warning for itch.io",
+	"short_name": "AI warning",
+	"description": "Shows a warning popup on itch.io pages of products containing AI generated content.",
+	"homepage_url": "https://github.com/seeeeew/aiwarningforitchio",
+	"icons": {
+		"128": "img/icon128.png"
+	},
+	"version": "0.1.0",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.itch.io/*"
+			],
+			"js": [
+				"aiwarningforitchio.user.js"
+			]
+		}
+	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{d8701512-cca3-11f0-bde9-4b431ce29820}",
+			"data_collection_permissions": {
+				"required": ["none"]
+			}
+		}
+	}
+}
