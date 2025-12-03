@@ -10,9 +10,11 @@ When visiting the itch.io page of a product tagged with AI-generated content tag
 
 **AI warning for itch.io** can be installed as a native browser extension for Firefox or Chrome, or as a userscript for any supported browser. All variants run the exact same code, so installation and updates are the only differences.
 
-### Option 1: Install as a browser extension for Firefox or Chrome _(soon™)_
+### Option 1: Install as a browser extension for Firefox or Chrome
 
-The extension has been submitted to both Mozilla and Google for review. The links to both versions will be added here, as soon as they're approved. This shouldn't take longer than 2-3 days.
+This is the easier option, but updates can sometimes be delayed, because Mozilla and Google need to approve them first. (Usually this shouldn't take more than a day.) Just follow the appropriate link for your browser and click the install button.
+- [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/ai-warning-for-itch-io/)
+- [Chrome Web Store](https://chromewebstore.google.com/detail/ai-warning-for-itchio/dffomlajfhnicegmhkhknllpmfghedni)
 
 ### Option 2: Install as a userscript
 
